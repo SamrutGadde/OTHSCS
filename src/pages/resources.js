@@ -1,8 +1,18 @@
 import React from "react";
-
+import FooterBottom from "../components/footer.js";
+import "../index.css";
+import {
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCol,
+} from "mdbreact";
 export default function resources() {
   return (
-    <div className="">
+    <div className="" style={{ backgroundColor: "#2b2828" }}>
       <div class="container-sm">
         <div
           className="col- offset-"
@@ -11,18 +21,24 @@ export default function resources() {
             justifyContent: "center",
             alignItems: "center",
             fontSize: "6vmin",
-            color: "black",
+            color: "white",
           }}
         >
           Resources
         </div>
+
         <div class="row">
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Competitive Programmer's Handbook</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Competitive Programmer's Handbook
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -35,11 +51,16 @@ export default function resources() {
           </div>
 
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Advanced Algorithms</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Advanced Algorithms
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -52,11 +73,16 @@ export default function resources() {
           </div>
 
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Darren Yao's book</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Darren Yao's book
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -71,15 +97,23 @@ export default function resources() {
         <div class="row">
           {" "}
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">William Lin</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  William Lin
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://www.youtube.com/c/WilliamLin168"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
@@ -95,7 +129,7 @@ export default function resources() {
           justifyContent: "center",
           alignItems: "center",
           fontSize: "6vmin",
-          color: "black",
+          color: "white",
         }}
       >
         Forms
@@ -103,11 +137,16 @@ export default function resources() {
       <div class="container">
         <div class="row">
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Competitive Programmer's Handbook</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Competitive Programmer's Handbook
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -120,11 +159,16 @@ export default function resources() {
           </div>
 
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Advanced Algorithms</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Advanced Algorithms
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -137,11 +181,16 @@ export default function resources() {
           </div>
 
           <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div class="card text-center">
+            <div
+              class="card text-center"
+              style={{ backgroundColor: "#1E1E1E" }}
+            >
               <div class="card-header"></div>
-              <div class="card-body">
-                <h5 class="card-title">Darren Yao's book</h5>
-                <p class="card-text">
+              <div class="card-body" style={{ color: "#4285F4" }}>
+                <h5 class="card-title" style={{ color: "#4285F4" }}>
+                  Darren Yao's book
+                </h5>
+                <p class="card-text" style={{ color: "#4285F4" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -154,23 +203,7 @@ export default function resources() {
           </div>
         </div>
       </div>
-      <div
-        id="footer"
-        style={{
-          position: "absolute",
-          backgroundColor: "#2e3545",
-          width: "100%",
-          marginTop: "4rem",
-        }}
-      >
-        <div class="container">
-          <p style={{ color: "grey", marginTop: "1rem" }}>
-            {" "}
-            Made by Adeeb Ismail and Samrut Gadde{" "}
-          </p>
-          <p style={{ color: "grey", marginTop: "1rem" }}> Contact:</p>
-        </div>
-      </div>
+      <FooterBottom> </FooterBottom>
     </div>
   );
 }

@@ -4,7 +4,7 @@ export default function navbar() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" style={{ marginLeft: "1rem" }}>
+        <a class="navbar-brand" style={{ marginLeft: "1rem", color: "white" }}>
           <img
             src={img}
             width="30"

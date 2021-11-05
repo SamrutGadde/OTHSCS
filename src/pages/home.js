@@ -3,19 +3,25 @@ import Typical from "react-typical";
 //import Background from "./84248.png";
 import img from "./Sevenlakes.JPG";
 import img1 from "./2.PNG";
+import {
+  MDBBtn,
+  MDBCard,
+  MDBCardBody,
+  MDBCardImage,
+  MDBCardTitle,
+  MDBCardText,
+  MDBCol,
+} from "mdbreact";
 export class home extends Component {
   render() {
     return (
       <div
         className=""
-        style={{
-          //backgroundImage: `url(${Background})`,
-          backgroundColor: "#3777FF",
-          height: "100vh",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        style={
+          {
+            //backgroundImage: `url(${Background})`,
+          }
+        }
       ></div>
     );
   }
