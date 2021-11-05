@@ -1,18 +1,16 @@
 import React from "react";
 import FooterBottom from "../components/footer.js";
 import "../index.css";
-import {
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCol,
-} from "mdbreact";
+
 export default function resources() {
   return (
-    <div className="" style={{ backgroundColor: "#2b2828" }}>
+    <div
+      className=""
+      style={{
+        backgroundColor: "#2b2828",
+        minHeight: "150vh",
+      }}
+    >
       <div class="container-sm">
         <div
           className="col- offset-"
@@ -34,11 +32,11 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Competitive Programmer's Handbook
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -56,15 +54,18 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Advanced Algorithms
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://cp-algorithms.web.app/index.html"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
@@ -78,15 +79,18 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Darren Yao's book
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://darrenyao.com/usacobook/java.pdf"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
@@ -102,13 +106,12 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   William Lin
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                <p class="card-text" style={{ color: "white" }}>
+                  Competitive programmer YouTuber.
                 </p>
                 <a
                   href="https://www.youtube.com/c/WilliamLin168"
@@ -142,11 +145,11 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
-                  Competitive Programmer's Handbook
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
+                  Transportation Form
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -164,11 +167,11 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Advanced Algorithms
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -186,11 +189,11 @@ export default function resources() {
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Darren Yao's book
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -203,7 +206,7 @@ export default function resources() {
           </div>
         </div>
       </div>
-      <FooterBottom> </FooterBottom>
+      <FooterBottom></FooterBottom>
     </div>
   );
 }
