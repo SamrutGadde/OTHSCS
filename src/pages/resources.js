@@ -28,18 +28,6 @@ export default function resources() {
         </div>
 
         <div class="row">
-
-    <MDBCol>
-      <MDBCard style={{ width: "22rem" }}>
-        <MDBCardBody>
-          <MDBCardTitle>Card title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make
-            up the bulk of the card&apos;s content.
-          </MDBCardText>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
           <div class="col-4" style={{ marginTop: "1rem" }}>
             <div
               class="card text-center"
@@ -215,7 +203,7 @@ export default function resources() {
           </div>
         </div>
       </div>
-      <FooterBottom> </FooterBottom>
+      <FooterBottom />
     </div>
   );
 }
