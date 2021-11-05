@@ -1,4 +1,6 @@
 import React from "react";
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
+
 
 export default function resources() {
   return (
@@ -17,6 +19,18 @@ export default function resources() {
           Resources
         </div>
         <div class="row">
+
+    <MDBCol>
+      <MDBCard style={{ width: "22rem" }}>
+        <MDBCardBody>
+          <MDBCardTitle>Card title</MDBCardTitle>
+          <MDBCardText>
+            Some quick example text to build on the card title and make
+            up the bulk of the card&apos;s content.
+          </MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
           <div class="col-4" style={{ marginTop: "1rem" }}>
             <div class="card text-center">
               <div class="card-header"></div>
