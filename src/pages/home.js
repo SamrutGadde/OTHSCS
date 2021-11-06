@@ -15,14 +15,9 @@ import {
 export class home extends Component {
   render() {
     return (
-      <div
-        className=""
-        style={
-          {
-            //backgroundImage: `url(${Background})`,
-          }
-        }
-      ></div>
+      <div>
+        
+      </div>
     );
   }
 }
