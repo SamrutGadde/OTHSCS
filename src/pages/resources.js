@@ -1,19 +1,19 @@
 import React from "react";
 import FooterBottom from "../components/footer.js";
 import "../index.css";
-import {
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCol,
-} from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 export default function resources() {
   return (
-    <div className="" style={{ backgroundColor: "#2b2828" }}>
-      <div class="container-sm">
+    <div
+      className=""
+      style={{
+        backgroundColor: "#2b2828",
+        minHeight: "100vh",
+        marginBottom: "100px",
+      }}
+    >
+      <MDBContainer>
+        {" "}
         <div
           className="col- offset-"
           style={{
@@ -26,19 +26,19 @@ export default function resources() {
         >
           Resources
         </div>
-
-        <div class="row">
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+        <MDBRow>
+          <MDBCol style={{ marginTop: "1rem" }}>
+            {" "}
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Competitive Programmer's Handbook
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -48,67 +48,69 @@ export default function resources() {
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
-
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+          </MDBCol>
+          <MDBCol style={{ marginTop: "1rem" }}>
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Advanced Algorithms
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://cp-algorithms.web.app/index.html"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
-
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+          </MDBCol>
+          <MDBCol style={{ marginTop: "1rem" }}>
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Darren Yao's book
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://darrenyao.com/usacobook/java.pdf"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          {" "}
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+          </MDBCol>{" "}
+        </MDBRow>
+        <MDBRow>
+          <MDBCol style={{ marginTop: "1rem" }}>
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   William Lin
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
-                  With supporting text below as a natural lead-in to additional
-                  content.
+                <p class="card-text" style={{ color: "white" }}>
+                  Competitive programming YouTuber.
                 </p>
                 <a
                   href="https://www.youtube.com/c/WilliamLin168"
@@ -119,34 +121,35 @@ export default function resources() {
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>{" "}
+      <MDBContainer>
+        <div
+          className="col- offset-"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            fontSize: "6vmin",
+            color: "white",
+          }}
+        >
+          Forms{" "}
         </div>
-      </div>
-      <div
-        className="col- offset-"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          fontSize: "6vmin",
-          color: "white",
-        }}
-      >
-        Forms
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+        <MDBRow>
+          <MDBCol style={{ marginTop: "1rem" }}>
+            {" "}
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Competitive Programmer's Handbook
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -156,53 +159,33 @@ export default function resources() {
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
-
-          <div class="col-4" style={{ marginTop: "1rem" }}>
+          </MDBCol>
+          <MDBCol style={{ marginTop: "1rem" }}>
             <div
               class="card text-center"
               style={{ backgroundColor: "#1E1E1E" }}
             >
               <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
+              <div class="card-body" style={{ color: "white" }}>
+                <h5 class="card-title" style={{ color: "white" }}>
                   Advanced Algorithms
                 </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
+                <p class="card-text" style={{ color: "white" }}>
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
+                <a
+                  href="https://cp-algorithms.web.app/index.html"
+                  class="btn btn-primary"
+                >
                   Check it out
                 </a>
               </div>
               <div class="card-footer text-muted"></div>
             </div>
-          </div>
-
-          <div class="col-4" style={{ marginTop: "1rem" }}>
-            <div
-              class="card text-center"
-              style={{ backgroundColor: "#1E1E1E" }}
-            >
-              <div class="card-header"></div>
-              <div class="card-body" style={{ color: "#4285F4" }}>
-                <h5 class="card-title" style={{ color: "#4285F4" }}>
-                  Darren Yao's book
-                </h5>
-                <p class="card-text" style={{ color: "#4285F4" }}>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </p>
-                <a href="https://cses.fi/book/book.pdf" class="btn btn-primary">
-                  Check it out
-                </a>
-              </div>
-              <div class="card-footer text-muted"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+          </MDBCol>
+        </MDBRow>
+      </MDBContainer>
       <FooterBottom />
     </div>
   );

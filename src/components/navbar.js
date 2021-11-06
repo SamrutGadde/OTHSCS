@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState, setState } from "react";
 import logo from "./lgo.svg";
 import {
-  MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
-  MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
-  } from "mdbreact";
-import {BrowserRouter as Router, Link} from 'react-router-dom'
-
-export default function navbar() {
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarNav,
+  MDBNavItem,
+  MDBNavLink,
+  MDBNavbarToggler,
+  MDBCollapse,
+  MDBFormInline,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+} from "mdbreact";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+export default function Navbar() {
   return (
-      <MDBNavbar color="indigo" dark expand="md">
-        <MDBNavbarBrand>
-          <Link className="nav-link" to="/">
+    <MDBNavbar color="indigo" dark expand="md">
+      <MDBNavbarBrand>
+        <Link className="nav-link" to="/">
           <img
             src={logo}
             width="30"
@@ -19,23 +28,28 @@ export default function navbar() {
             style={{ marginRight: "1rem" }}
           />
           <strong className="white-text">OTHS Computer Science</strong>
-          </Link>
-        </MDBNavbarBrand>
+        </Link>
+      </MDBNavbarBrand>
 
-          <MDBNavbarNav left>
-            <MDBNavItem active >
-              <Link className="nav-link" to="/resources">Resources</Link>
-            </MDBNavItem>
-            <MDBNavItem>
-            <Link className="nav-link" to="#!">Upcoming Events</Link>
-            </MDBNavItem>
-            <MDBNavItem>
-            <Link className="nav-link" to="#!">About Us</Link>
-            </MDBNavItem>
-          </MDBNavbarNav>
-          <MDBNavbarNav right>
-          </MDBNavbarNav>
-      </MDBNavbar>
+      <MDBNavbarNav left>
+        <MDBNavItem>
+          <Link className="nav-link" to="/resources">
+            Resources
+          </Link>
+        </MDBNavItem>
+        <MDBNavItem>
+          <Link className="nav-link" to="/events">
+            Upcoming Events
+          </Link>
+        </MDBNavItem>
+        <MDBNavItem>
+          <Link className="nav-link" to="#!">
+            About Us
+          </Link>
+        </MDBNavItem>
+      </MDBNavbarNav>
+      <MDBNavbarNav right></MDBNavbarNav>
+    </MDBNavbar>
     // <div>
     //   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
     //     <a class="navbar-brand" style={{ marginLeft: "1rem" }} href="/">
