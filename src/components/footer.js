@@ -4,25 +4,17 @@ import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 export default function footer() {
   return (
     <div>
-      <MDBFooter color="grey" className="font-small pt-4 mt-4 fixed-bottom">
-        <MDBContainer fluid className="text-center text-md-left ">
-          <MDBRow>
-            <MDBCol md="6">
-              <p>Made by Adeeb Ismail and Samrut Gadde</p>
-            </MDBCol>
-            <MDBCol md="6">
-              <ul>
-                <li className="list-unstyled">
-                  <a href="https://github.com/SamrutGadde/OTHSCSWebsite">
-                    Contact Us
-                  </a>
-                </li>
-                <li className="list-unstyled">
-                  <a href="https://github.com/SamrutGadde/OTHSCSWebsite">
-                    Github
-                  </a>
-                </li>
-              </ul>
+      <MDBFooter color="grey" className="font-small pt-3 mt-3 fixed-bottom">
+        <MDBContainer fluid className="text-center  ">
+          <MDBRow fluid classname="text-center ">
+            <MDBCol fluid classname="text-center ">
+              <p>
+                {" "}
+                <a href="https://github.com/SamrutGadde/OTHSCSWebsite">
+                  {" "}
+                  Made by Adeeb Ismail and Samrut Gadde{" "}
+                </a>
+              </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
