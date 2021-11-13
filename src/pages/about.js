@@ -370,7 +370,7 @@ export default function about() {
                         fontSize: "1rem",
                       }}
                     >
-                      Instagram
+                      Instagram:
                     </div>
                   </MDBCol>
                   <MDBCol>
@@ -382,33 +382,7 @@ export default function about() {
                         fontSize: "1rem",
                       }}
                     >
-                      Instagram
-                    </div>
-                  </MDBCol>
-                </MDBRow>
-                <MDBRow>
-                  <MDBCol>
-                    <div
-                      class="d-flex justify-content-center"
-                      style={{
-                        color: "white",
-                        marginTop: ".5rem",
-                        fontSize: "1rem",
-                      }}
-                    >
-                      Email
-                    </div>
-                  </MDBCol>
-                  <MDBCol>
-                    <div
-                      class="d-flex justify-content-center"
-                      style={{
-                        color: "white",
-                        marginTop: ".5rem",
-                        fontSize: "1rem",
-                      }}
-                    >
-                      Email
+                      @tompkins_cs
                     </div>
                   </MDBCol>
                 </MDBRow>
@@ -422,7 +396,7 @@ export default function about() {
                         fontSize: "1rem",
                       }}
                     >
-                      Address
+                      Email:
                     </div>
                   </MDBCol>
                   <MDBCol>
@@ -434,7 +408,33 @@ export default function about() {
                         fontSize: "1rem",
                       }}
                     >
-                      Address
+                      compscioths@gmail.com
+                    </div>
+                  </MDBCol>
+                </MDBRow>
+                <MDBRow>
+                  <MDBCol>
+                    <div
+                      class="d-flex justify-content-center"
+                      style={{
+                        color: "white",
+                        marginTop: ".5rem",
+                        fontSize: "1rem",
+                      }}
+                    >
+                      Address:
+                    </div>
+                  </MDBCol>
+                  <MDBCol>
+                    <div
+                      class="d-flex justify-content-center"
+                      style={{
+                        color: "white",
+                        marginTop: ".5rem",
+                        fontSize: "1rem",
+                      }}
+                    >
+                      4400 Falcon Landing Blvd, Katy, TX 77494
                     </div>
                   </MDBCol>
                 </MDBRow>
