@@ -1,7 +1,7 @@
 import React from "react";
 import FooterBottom from "../components/footer.js";
 import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBFooter } from "mdbreact";
-
+import "../index.css";
 export default function about() {
   return (
     <div
@@ -20,7 +20,7 @@ export default function about() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            fontSize: "6vmin",
+            fontSize: "3em",
             color: "white",
           }}
         >
@@ -115,24 +115,24 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: "1rem", fontSize: "2rem" }}
+              className="d-flex justify-content-center text"
+              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
             >
               Officers
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: "1rem", fontSize: "2rem" }}
+              class="d-flex justify-content-center text"
+              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
             >
               Sponsers
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: "1rem", fontSize: "2rem" }}
+              class="d-flex justify-content-center text"
+              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
             >
               Helpers
             </div>
@@ -142,7 +142,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               David
             </div>
@@ -150,7 +150,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Mr. Johnson
             </div>
@@ -158,7 +158,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Helpers
             </div>
@@ -168,7 +168,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Nicole
             </div>
@@ -176,13 +176,13 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Helpers
             </div>
@@ -192,7 +192,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Pranav
             </div>
@@ -200,13 +200,13 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
               class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
             >
               Helpers
             </div>

@@ -20,7 +20,7 @@ export default function resources() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            fontSize: "6vmin",
+            fontSize: "3em",
             color: "white",
           }}
         >
@@ -131,7 +131,7 @@ export default function resources() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            fontSize: "6vmin",
+            fontSize: "3em",
             color: "white",
           }}
         >
