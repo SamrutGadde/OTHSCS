@@ -43,7 +43,7 @@ export default function Navbar() {
           </Link>
         </MDBNavItem>
         <MDBNavItem>
-          <Link className="nav-link" to="#!">
+          <Link className="nav-link" to="/about">
             About Us
           </Link>
         </MDBNavItem>

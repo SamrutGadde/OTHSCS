@@ -9,19 +9,21 @@ export default function footer() {
           <MDBRow fluid classname="text-center ">
             <MDBCol fluid classname="text-center ">
               <p>
-                {" "}
-                <a href="https://github.com/SamrutGadde/OTHSCSWebsite">
+                <MDBContainer fluid>
                   {" "}
-                  Made by Adeeb Ismail and Samrut Gadde{" "}
-                </a>
+                  <a href="https://github.com/SamrutGadde/OTHSCSWebsite">
+                    {" "}
+                    GitHub
+                  </a>
+                </MDBContainer>
               </p>
             </MDBCol>
           </MDBRow>
         </MDBContainer>
         <div className="footer-copyright text-center py-3">
           <MDBContainer fluid>
-            &copy; {new Date().getFullYear()} Copyright:{" "}
-            <a href="https://www.mdbootstrap.com"> OTHS CS </a>
+            &copy; {new Date().getFullYear()} Copyright: Samrut Gadde and Adeeb
+            Ismail{" "}
           </MDBContainer>
         </div>
       </MDBFooter>
