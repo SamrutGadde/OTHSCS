@@ -38,7 +38,7 @@ export default function about() {
                 <h5 class="card-title" style={{ color: "white" }}>
                   Our Mission
                 </h5>
-                <p>
+                <div className="mission">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   sit amet metus vitae enim tempus suscipit nec nec metus. Ut
                   sed urna eros. Nam massa est, maximus a mi eget, hendrerit
@@ -80,7 +80,7 @@ export default function about() {
                   porttitor ultricies diam, tempus dignissim sapien tincidunt
                   quis. Quisque non varius arcu. Nulla vehicula neque a leo
                   consectetur tincidunt. Integer ut mattis mi, non egestas eros.{" "}
-                </p>
+                </div>
               </div>
               <div class="card-footer text-muted"></div>
             </div>
@@ -116,7 +116,7 @@ export default function about() {
           <MDBCol>
             <div
               className="d-flex justify-content-center text"
-              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
+              style={{ color: "white", marginTop: "1rem" }}
             >
               Officers
             </div>
@@ -124,7 +124,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center text"
-              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
+              style={{ color: "white", marginTop: "1rem" }}
             >
               Sponsers
             </div>
@@ -132,7 +132,7 @@ export default function about() {
           <MDBCol>
             <div
               class="d-flex justify-content-center text"
-              style={{ color: "white", marginTop: "1rem", fontSize: "150%" }}
+              style={{ color: "white", marginTop: "1rem" }}
             >
               Helpers
             </div>
@@ -141,24 +141,24 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               David
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Mr. Johnson
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -167,22 +167,22 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Nicole
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -191,22 +191,22 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Pranav
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1em" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -215,22 +215,22 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Jachika
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -239,22 +239,22 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Kshitij
             </div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -263,20 +263,20 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -285,20 +285,20 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -307,20 +307,20 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -329,20 +329,20 @@ export default function about() {
         <MDBRow>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             ></div>
           </MDBCol>
           <MDBCol>
             <div
-              class="d-flex justify-content-center"
-              style={{ color: "white", marginTop: ".5rem", fontSize: "1rem" }}
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
             >
               Helpers
             </div>
@@ -357,17 +357,16 @@ export default function about() {
             >
               <div class="card-header"></div>
               <div class="card-body" style={{ color: "white" }}>
-                <h5 class="card-title" style={{ color: "white" }}>
+                <div class="card-title title" style={{ color: "white" }}>
                   Contact Us
-                </h5>
+                </div>
                 <MDBRow>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact "
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       Instagram:
@@ -375,11 +374,10 @@ export default function about() {
                   </MDBCol>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact "
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       @tompkins_cs
@@ -389,11 +387,10 @@ export default function about() {
                 <MDBRow>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact"
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       Email:
@@ -401,11 +398,10 @@ export default function about() {
                   </MDBCol>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact"
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       compscioths@gmail.com
@@ -415,11 +411,10 @@ export default function about() {
                 <MDBRow>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact"
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       Address:
@@ -427,11 +422,10 @@ export default function about() {
                   </MDBCol>
                   <MDBCol>
                     <div
-                      class="d-flex justify-content-center"
+                      class="d-flex justify-content-center contact"
                       style={{
                         color: "white",
                         marginTop: ".5rem",
-                        fontSize: "1rem",
                       }}
                     >
                       4400 Falcon Landing Blvd, Katy, TX 77494

@@ -4,7 +4,58 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.text {
+@media only screen and (max-width: 400px) {
+  .contact {
+    font-size: 0.65em;
+  }
+  .title {
+    font-size: 0.85em;
+  }
+  .text {
+    font-size: 0.95em;
+  }
+  .people {
+    font-size: 0.65em;
+  }
+  .mission {
+    font-size: 0.65em;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .contact {
+    font-size: 0.85em;
+  }
+  .title {
+    font-size: 1.05em;
+  }
+  .text {
+    font-size: 1.05em;
+  }
+  .people {
+    font-size: 0.85em;
+  }
+  .mission {
+    font-size: 0.85em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact {
+    font-size: 1.05em;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  .text {
+    font-size: 1.5em;
+  }
+  .people {
+    font-size: 1.05em;
+  }
+  .mission {
+    font-size: 1em;
+  }
 }
 
 code {
