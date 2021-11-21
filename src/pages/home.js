@@ -12,11 +12,14 @@ import {
   MDBCardText,
   MDBCol,
 } from "mdbreact";
+import Footer from "../components/footer"
 export class home extends Component {
   render() {
     return (
       <div>
         
+
+        <Footer/>
       </div>
     );
   }
