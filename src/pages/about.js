@@ -1,6 +1,6 @@
 import React from "react";
 import FooterBottom from "../components/footer.js";
-import { MDBContainer, MDBRow, MDBCol, MDBIcon, MDBFooter } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import "../index.css";
 export default function about() {
   return (
