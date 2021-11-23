@@ -45,9 +45,12 @@ export default class Example extends React.Component {
     return (
       <div
         style={{
-          backgroundColor: "#1E1E1E",
+          backgroundColor: "#2b2828",
           minHeight: "100vh",
           marginBottom: "100px",
+          paddingLeft: "10%",
+          paddingRight: "10%",
+          paddingTop: "3%",
         }}
       >
         <Calendar
