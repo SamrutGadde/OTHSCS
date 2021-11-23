@@ -1,6 +1,7 @@
 import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 import Footer from "../components/footer";
+import "../components/scrollbar.css";
 const API_KEY = "AIzaSyCK_DDTb2oIpDRt51KQJYv_jmt3vkUMC2g";
 var size = "1rem";
 if (window.matchMedia("(max-width: 400px)").matches) {
@@ -25,6 +26,9 @@ let styles = {
   calendar: {
     backgroundColor: "#1E1E1E",
     color: "white",
+    flex: 2,
+    marginLeft: "10%",
+    marginRight: "10%",
   },
 
   today: {
@@ -44,13 +48,14 @@ export default class Example extends React.Component {
   render() {
     return (
       <div
+        className="scrollbar scrollbar-primary"
         style={{
           backgroundColor: "#2b2828",
           minHeight: "100vh",
           marginBottom: "100px",
-          paddingLeft: "10%",
-          paddingRight: "10%",
-          paddingTop: "3%",
+          alignItems: "center",
+          justifyContent: "center",
+          paddingTop: "5%",
         }}
       >
         <Calendar

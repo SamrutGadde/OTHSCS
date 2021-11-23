@@ -11,7 +11,6 @@ import "./index.css";
 function App(props) {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/resources" component={Resources} exact />

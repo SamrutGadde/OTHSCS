@@ -2,6 +2,7 @@ import React from "react";
 import FooterBottom from "../components/footer.js";
 import "../index.css";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import Navbar from "../components/navbar"
 export default function resources() {
   return (
     <div
@@ -12,6 +13,7 @@ export default function resources() {
         marginBottom: "100px",
       }}
     >
+      <Navbar />
       <MDBContainer>
         {" "}
         <div
