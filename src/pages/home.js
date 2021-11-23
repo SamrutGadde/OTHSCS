@@ -3,26 +3,39 @@ import Typical from "react-typical";
 //import Background from "./84248.png";
 import img from "./Sevenlakes.JPG";
 import img1 from "./2.PNG";
-import {
-  MDBBtn,
-  MDBCard,
-  MDBCardBody,
-  MDBCardImage,
-  MDBCardTitle,
-  MDBCardText,
-  MDBCol,
-} from "mdbreact";
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer } from
+"mdbreact";
+import Navbar from "../components/navbar"
 import Footer from "../components/footer"
-export class home extends Component {
-  render() {
-    return (
-      <div>
-        
+function home(props) {
+  return(
+  <div style = {{display:'flex', flexDirection:'column', backgroundColor:'#2b2828', minHeight:'100vh', }}>
+    <Navbar style = {{flex:1,}} />
+    <div style = {{ flexDirection:'column', display:'flex', flex:1,}}>
+          <div style = {{justifyContent:"center", flex:1,}}>
+            <MDBContainer>
+              <MDBCarousel
+                activeItem={1}
+                length={3}
+                showControls={true}
+                showIndicators={true}
+                className="z-depth-1"
+              >
+               
+              </MDBCarousel>
+            </MDBContainer>
+          </div>
+          <div style = {{flex: 1}}>
 
+          </div>
+          <div>
+
+          </div>
         <Footer/>
-      </div>
-    );
-  }
+    </div>
+  </div>
+
+  )
 }
 
 export default home;
