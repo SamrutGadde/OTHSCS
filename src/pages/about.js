@@ -8,7 +8,7 @@ export default function about() {
       className=""
       style={{
         backgroundColor: "#2b2828",
-        minHeight: "110vh",
+        minHeight: "100vh",
         marginBottom: "100px",
       }}
     >
