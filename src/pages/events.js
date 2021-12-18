@@ -1,6 +1,7 @@
 import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 import Footer from "../components/footer";
+import DeviceOrientation, { Orientation } from "react-screen-orientation";
 const API_KEY = "AIzaSyCK_DDTb2oIpDRt51KQJYv_jmt3vkUMC2g";
 var size = "1rem";
 if (window.matchMedia("(max-width: 400px)").matches) {
@@ -10,11 +11,12 @@ if (window.matchMedia("(min-width: 400px)").matches) {
   size = ".3em";
 }
 if (window.matchMedia("(min-width: 700px) ").matches) {
-  size = ".80em";
+  size = ".50em";
 }
 if (window.matchMedia("(min-width: 1000px) ").matches) {
-  size = "1em";
+  size = ".7em";
 }
+
 let calendars = [
   {
     calendarId: "adeeb5412@gmail.com",
@@ -57,12 +59,23 @@ export default class Example extends React.Component {
           paddingTop: "5%",
         }}
       >
-        <Calendar
-          apiKey={API_KEY}
-          styles={styles}
-          calendars={calendars}
-          showFooter={false}
-        />
+        <DeviceOrientation lockOrientation={"landscape"}>
+          {/* Will only be in DOM in landscape */}
+          <Orientation orientation="landscape" alwaysRender={false}>
+            <Calendar
+              apiKey={API_KEY}
+              styles={styles}
+              calendars={calendars}
+              showFooter={false}
+            />
+          </Orientation>
+          <Orientation orientation="portrait">
+            <div>
+              <p>Please rotate your device</p>
+            </div>
+          </Orientation>
+        </DeviceOrientation>
+
         <Footer> </Footer>
       </div>
     );
