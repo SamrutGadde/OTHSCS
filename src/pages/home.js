@@ -3,15 +3,24 @@ import Typical from "react-typical";
 //import Background from "./84248.png";
 import img from "./Sevenlakes.JPG";
 import img1 from "./2.PNG";
-import {
-  MDBCarousel,
-  MDBCarouselInner,
-  MDBCarouselItem,
-  MDBView,
-  MDBContainer,
-} from "mdbreact";
+
+import Carousel from "react-material-ui-carousel";
 import Footer from "../components/footer";
 function home(props) {
+  var items = [
+    {
+      name: "Seven Lakes",
+      description: "best programmers NA",
+      img: "https://byliner.com/wp-content/uploads/2021/06/hello.jpg",
+    },
+
+    {
+      name: "Clements HS",
+      description: "best programmers EU",
+      img: "https://media-exp1.licdn.com/dms/image/C4D1BAQGEQtjtaNBsNA/company-background_10000/0/1556883129624?e=2159024400&v=beta&t=hOx-hbnIDIN4uyKXb6Vfa_vxTw60Cgt3KzpH2IN_qX8",
+    },
+  ];
+
   return (
     <div
       style={{
@@ -22,19 +31,29 @@ function home(props) {
       }}
     >
       <div style={{ flexDirection: "column", display: "flex", flex: 1 }}>
-        <div style={{ justifyContent: "center", flex: 1 }}>
-          <MDBContainer>
-            <MDBCarousel
-              activeItem={1}
-              length={3}
-              showControls={true}
-              showIndicators={true}
-              className="z-depth-1"
-            ></MDBCarousel>
-          </MDBContainer>
+        <div
+          style={{ justifyContent: "center", flex: 1, alignItems: "center" }}
+        >
+          <Carousel>
+            {items.map((item, i) => (
+              <div
+                style={{
+                  flexDirection: "column",
+                  display: "flex",
+                  height: "auto",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img style={{ flex: 1 }} src={item.img} />
+                <div style={{ color: "white", flex: 1 }}>
+                  {item.name}:/ {item.description}
+                </div>
+              </div>
+            ))}
+          </Carousel>
         </div>
-        <div style={{ flex: 1 }}></div>
-        <div></div>
+        <></>
         <Footer />
       </div>
     </div>
