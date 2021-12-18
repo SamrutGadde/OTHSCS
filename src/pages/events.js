@@ -2,6 +2,7 @@ import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 import Footer from "../components/footer";
 import DeviceOrientation, { Orientation } from "react-screen-orientation";
+import { isMobile } from "react-device-detect";
 const API_KEY = "AIzaSyCK_DDTb2oIpDRt51KQJYv_jmt3vkUMC2g";
 var size = "1rem";
 if (window.matchMedia("(max-width: 400px)").matches) {
@@ -44,7 +45,7 @@ let styles = {
     fontSize: size,
   },
 };
-
+var color = "white";
 export default class Example extends React.Component {
   render() {
     return (
@@ -69,8 +70,16 @@ export default class Example extends React.Component {
               showFooter={false}
             />
           </Orientation>
-          <Orientation orientation="portrait">
-            <div>
+          <Orientation orientation="portrait" alwaysRender={false}>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                fontSize: "1em",
+                color: color,
+              }}
+            >
               <p>Please rotate your device</p>
             </div>
           </Orientation>
