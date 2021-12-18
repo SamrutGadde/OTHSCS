@@ -1,41 +1,68 @@
 import React, { useState, setState } from "react";
 import logo from "./lgo.svg";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem } from "mdbreact";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBDropdownLink,
+  MDBCollapse,
+} from "mdb-react-ui-kit";
 export default function Navbar() {
+  const [showBasic, setShowBasic] = useState(true);
+
   return (
-    <MDBNavbar color="indigo" dark expand="md">
-      <MDBNavbarBrand>
-        <Link className="nav-link" to="/">
+    <MDBNavbar dark expand="lg" style={{ backgroundColor: "#3F50B5" }}>
+      <MDBContainer fluid>
+        <MDBNavbarBrand tag="span" className="mb-0 h1">
           <img
             src={logo}
             width="30"
             height="30"
-            class="d-inline-block align-top"
             style={{ marginRight: "1rem" }}
           />
-          <strong className="white-text">OTHS Computer Science</strong>
-        </Link>
-      </MDBNavbarBrand>
+          OTHS Computer Science
+        </MDBNavbarBrand>
 
-      <MDBNavbarNav left>
-        <MDBNavItem>
-          <Link className="nav-link" to="/resources">
-            Resources
-          </Link>
-        </MDBNavItem>
-        <MDBNavItem>
-          <Link className="nav-link" to="/events">
-            Upcoming Events
-          </Link>
-        </MDBNavItem>
-        <MDBNavItem>
-          <Link className="nav-link" to="/about">
-            About Us
-          </Link>
-        </MDBNavItem>
-      </MDBNavbarNav>
-      <MDBNavbarNav right></MDBNavbarNav>
+        <MDBNavbarToggler
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={() => setShowBasic(!showBasic)}
+        >
+          <MDBIcon icon="bars" fas />
+        </MDBNavbarToggler>
+
+        <MDBCollapse navbar show={showBasic}>
+          <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
+            <MDBNavbarItem>
+              <MDBNavbarLink active aria-current="page" href="/">
+                Home
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/about">About Us</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/events">Upcoming Events</MDBNavbarLink>
+            </MDBNavbarItem>
+
+            <MDBNavbarItem>
+              <MDBNavbarLink href="/resources">Resources</MDBNavbarLink>
+            </MDBNavbarItem>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
     </MDBNavbar>
     // <div>
     //   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">

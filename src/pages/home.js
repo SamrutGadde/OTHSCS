@@ -1,37 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "../index.css";
-import davidTeach from "../pictures/DavidTeaching2.JPG";
-import clements from "../pictures/IMG_0799.jpg";
-import board from "../pictures/IMG_2986.JPG";
-import sevenlakes from "../pictures/IMG_3036.JPG";
-import samWin from "../pictures/IMG_2175.jpg";
-import Carousel from "react-material-ui-carousel";
 import Footer from "../components/footer";
 import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
 import Typical from "react-typical";
+import Carousel from "../components/carousel";
 function home(props) {
-  var items = [
-    {
-      img: davidTeach,
-    },
-
-    {
-      img: clements,
-    },
-
-    {
-      img: board,
-    },
-
-    {
-      img: sevenlakes,
-    },
-
-    {
-      img: samWin,
-    },
-  ];
-
   return (
     <div
       style={{
@@ -89,13 +62,7 @@ function home(props) {
           </div>
 
           <div style={{ flex: "65vh" }}>
-            <Carousel>
-              {items.map((item, i) => (
-                <div style={{}}>
-                  <img style={{ width: "100%" }} src={item.img} />
-                </div>
-              ))}
-            </Carousel>
+            <Carousel />
           </div>
         </div>
       </div>
@@ -109,7 +76,8 @@ function home(props) {
           <MDBRow>
             <MDBCol
               style={{
-                marginTop: "1rem",
+                marginTop: "2rem",
+                marginBottom: "2rem",
               }}
             >
               {" "}

@@ -349,7 +349,7 @@ export default function about() {
           </MDBCol>
         </MDBRow>
         <MDBRow>
-          <MDBCol style={{ marginTop: "1rem" }}>
+          <MDBCol style={{ marginBottom: "2em", marginTop: "2em" }}>
             {" "}
             <div
               class="card text-center"

@@ -61,7 +61,6 @@ export default class Example extends React.Component {
         }}
       >
         <DeviceOrientation lockOrientation={"landscape"}>
-          {/* Will only be in DOM in landscape */}
           <Orientation orientation="landscape" alwaysRender={false}>
             <Calendar
               apiKey={API_KEY}
