@@ -8,7 +8,7 @@ import samWin from "../pictures/IMG_2175.jpg";
 import Carousel from "react-material-ui-carousel";
 import Footer from "../components/footer";
 import { MDBContainer, MDBRow, MDBCol, MDBIcon } from "mdbreact";
-
+import Typical from "react-typical";
 function home(props) {
   var items = [
     {
@@ -60,26 +60,35 @@ function home(props) {
             style={{
               display: "flex",
               color: "white",
-              flex: "45%",
+              flex: "55vh",
               alignItems: "center",
               backgroundColor: "#0d1039",
+              width: "100%",
             }}
           >
             <div
               style={{
-                paddingLeft: "10rem",
-                flex: 1,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
                 fontFamily: "monospace",
-                width: "100%",
+                paddingLeft: "1vh",
               }}
               class="welcome"
             >
-              Welcome to the <br />
-              OTHS Computer Science Club
+              <Typical
+                steps={[
+                  "Welcome",
+                  1000,
+                  "Welcome to the OTHS Computer Science Club",
+                  500,
+                ]}
+                wrapper="p"
+              />
             </div>
           </div>
 
-          <div style={{ flex: "55%" }}>
+          <div style={{ flex: "65vh" }}>
             <Carousel>
               {items.map((item, i) => (
                 <div style={{}}>
