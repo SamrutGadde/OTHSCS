@@ -2,7 +2,6 @@ import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 import Footer from "../components/footer";
 import DeviceOrientation, { Orientation } from "react-screen-orientation";
-import { isMobile } from "react-device-detect";
 const API_KEY = "AIzaSyCK_DDTb2oIpDRt51KQJYv_jmt3vkUMC2g";
 var size = "1rem";
 if (window.matchMedia("(max-width: 400px)").matches) {
@@ -58,6 +57,7 @@ export default class Example extends React.Component {
           alignItems: "center",
           justifyContent: "center",
           paddingTop: "5%",
+          paddingBottom: "5%",
         }}
       >
         <DeviceOrientation lockOrientation={"landscape"}>

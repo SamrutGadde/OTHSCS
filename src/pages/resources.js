@@ -138,7 +138,7 @@ export default function resources() {
           Forms{" "}
         </div>
         <MDBRow>
-          <MDBCol style={{ marginTop: "1rem" }}>
+          <MDBCol style={{ marginTop: "1em", marginBottom: "2em" }}>
             {" "}
             <div
               class="card text-center"

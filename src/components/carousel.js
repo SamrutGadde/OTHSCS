@@ -12,7 +12,7 @@ import sevenlakes from "../pictures/IMG_3036.JPG";
 import samWin from "../pictures/IMG_2175.jpg";
 export default function App() {
   return (
-    <MDBCarousel showControls fade>
+    <MDBCarousel showIndicators fade interval={5000}>
       <MDBCarouselInner>
         <MDBCarouselItem className="active">
           <MDBCarouselElement src={davidTeach} alt="..." />
