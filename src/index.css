@@ -20,6 +20,9 @@ body {
   .mission {
     font-size: 0.65em;
   }
+  .welcome {
+    font-size: 0.85em;
+  }
 }
 
 @media only screen and (min-width: 400px) {
@@ -38,6 +41,9 @@ body {
   .mission {
     font-size: 0.85em;
   }
+  .welcome {
+    font-size: 1.05em;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -55,6 +61,9 @@ body {
   }
   .mission {
     font-size: 1em;
+  }
+  .welcome {
+    font-size: 3em;
   }
 }
 

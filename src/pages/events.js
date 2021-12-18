@@ -1,7 +1,6 @@
 import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 import Footer from "../components/footer";
-import "../components/scrollbar.css";
 const API_KEY = "AIzaSyCK_DDTb2oIpDRt51KQJYv_jmt3vkUMC2g";
 var size = "1rem";
 if (window.matchMedia("(max-width: 400px)").matches) {
