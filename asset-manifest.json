@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/OTHSCS.github.io/static/css/main.48d911a5.chunk.css",
+    "main.js": "/OTHSCS.github.io/static/js/main.ccd621be.chunk.js",
+    "main.js.map": "/OTHSCS.github.io/static/js/main.ccd621be.chunk.js.map",
+    "runtime-main.js": "/OTHSCS.github.io/static/js/runtime-main.efba2ec1.js",
+    "runtime-main.js.map": "/OTHSCS.github.io/static/js/runtime-main.efba2ec1.js.map",
+    "static/css/2.755674ed.chunk.css": "/OTHSCS.github.io/static/css/2.755674ed.chunk.css",
+    "static/js/2.7e9d29ca.chunk.js": "/OTHSCS.github.io/static/js/2.7e9d29ca.chunk.js",
+    "static/js/2.7e9d29ca.chunk.js.map": "/OTHSCS.github.io/static/js/2.7e9d29ca.chunk.js.map",
+    "index.html": "/OTHSCS.github.io/index.html",
+    "static/css/2.755674ed.chunk.css.map": "/OTHSCS.github.io/static/css/2.755674ed.chunk.css.map",
+    "static/css/main.48d911a5.chunk.css.map": "/OTHSCS.github.io/static/css/main.48d911a5.chunk.css.map",
+    "static/js/2.7e9d29ca.chunk.js.LICENSE.txt": "/OTHSCS.github.io/static/js/2.7e9d29ca.chunk.js.LICENSE.txt",
+    "static/media/DavidTeaching2.841fc1e5.JPG": "/OTHSCS.github.io/static/media/DavidTeaching2.841fc1e5.JPG",
+    "static/media/IMG_0799.81b509a9.jpg": "/OTHSCS.github.io/static/media/IMG_0799.81b509a9.jpg",
+    "static/media/IMG_2175.1a955523.jpg": "/OTHSCS.github.io/static/media/IMG_2175.1a955523.jpg",
+    "static/media/IMG_2986.7700b524.JPG": "/OTHSCS.github.io/static/media/IMG_2986.7700b524.JPG",
+    "static/media/IMG_3036.a64d8ff0.JPG": "/OTHSCS.github.io/static/media/IMG_3036.a64d8ff0.JPG",
+    "static/media/mdb.css": "/OTHSCS.github.io/static/media/arrow_right.f7c6ac6d.svg",
+    "static/media/all.min.css": "/OTHSCS.github.io/static/media/fa-solid-900.eeccf4f6.woff",
+    "static/media/lgo.f39e839b.svg": "/OTHSCS.github.io/static/media/lgo.f39e839b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efba2ec1.js",
+    "static/css/2.755674ed.chunk.css",
+    "static/js/2.7e9d29ca.chunk.js",
+    "static/css/main.48d911a5.chunk.css",
+    "static/js/main.ccd621be.chunk.js"
+  ]
+}
