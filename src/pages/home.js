@@ -61,7 +61,7 @@ function home(props) {
             </div>
           </div>
 
-          <div style={{ flex: "65vh" }}>
+          <div style={{ flex: "105vh", alignItems: "center", display: "flex" }}>
             <Carousel />
           </div>
         </div>
