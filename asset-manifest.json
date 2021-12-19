@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/OTHSCS.github.io/static/css/main.fc4c20b9.chunk.css",
-    "main.js": "/OTHSCS.github.io/static/js/main.174e5ca5.chunk.js",
-    "main.js.map": "/OTHSCS.github.io/static/js/main.174e5ca5.chunk.js.map",
+    "main.js": "/OTHSCS.github.io/static/js/main.aab51cf0.chunk.js",
+    "main.js.map": "/OTHSCS.github.io/static/js/main.aab51cf0.chunk.js.map",
     "runtime-main.js": "/OTHSCS.github.io/static/js/runtime-main.efba2ec1.js",
     "runtime-main.js.map": "/OTHSCS.github.io/static/js/runtime-main.efba2ec1.js.map",
     "static/css/2.755674ed.chunk.css": "/OTHSCS.github.io/static/css/2.755674ed.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.755674ed.chunk.css",
     "static/js/2.5c1ed58e.chunk.js",
     "static/css/main.fc4c20b9.chunk.css",
-    "static/js/main.174e5ca5.chunk.js"
+    "static/js/main.aab51cf0.chunk.js"
   ]
 }
