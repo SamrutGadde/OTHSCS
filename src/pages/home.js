@@ -62,7 +62,7 @@ function home(props) {
           </div>
 
           <div style={{ flex: "65vh" }}>
-            <Carousel />
+            //<Carousel />
           </div>
         </div>
       </div>
