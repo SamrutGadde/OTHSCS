@@ -45,20 +45,20 @@ export default function Navbar() {
         <MDBCollapse navbar show={showBasic}>
           <MDBNavbarNav className="mr-auto mb-2 mb-lg-0">
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="/">
+              <MDBNavbarLink active aria-current="page" href="/OTHSCS/#/">
                 Home
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="/about">About Us</MDBNavbarLink>
+              <MDBNavbarLink href="/OTHSCS/#/about">About Us</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href="/events">Upcoming Events</MDBNavbarLink>
+              <MDBNavbarLink href="/OTHSCS/#/events">Upcoming Events</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href="/resources">Resources</MDBNavbarLink>
+              <MDBNavbarLink href="/OTHSCS/#/resources">Resources</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

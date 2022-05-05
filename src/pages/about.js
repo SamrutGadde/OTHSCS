@@ -144,7 +144,7 @@ export default function about() {
               class="d-flex justify-content-center people"
               style={{ color: "white", marginTop: ".5rem" }}
             >
-              David
+              Nicole
             </div>
           </MDBCol>
           <MDBCol>
@@ -154,54 +154,6 @@ export default function about() {
             >
               Mr. Johnson
             </div>
-          </MDBCol>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            >
-              Helpers
-            </div>
-          </MDBCol>
-        </MDBRow>
-        <MDBRow>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            >
-              Nicole
-            </div>
-          </MDBCol>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            ></div>
-          </MDBCol>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            >
-              Helpers
-            </div>
-          </MDBCol>
-        </MDBRow>
-        <MDBRow>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            >
-              Pranav
-            </div>
-          </MDBCol>
-          <MDBCol>
-            <div
-              class="d-flex justify-content-center people"
-              style={{ color: "white", marginTop: ".5rem" }}
-            ></div>
           </MDBCol>
           <MDBCol>
             <div
@@ -242,7 +194,55 @@ export default function about() {
               class="d-flex justify-content-center people"
               style={{ color: "white", marginTop: ".5rem" }}
             >
+              David
+            </div>
+          </MDBCol>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            ></div>
+          </MDBCol>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            >
+              Helpers
+            </div>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            >
               Kshitij
+            </div>
+          </MDBCol>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            ></div>
+          </MDBCol>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            >
+              Helpers
+            </div>
+          </MDBCol>
+        </MDBRow>
+        <MDBRow>
+          <MDBCol>
+            <div
+              class="d-flex justify-content-center people"
+              style={{ color: "white", marginTop: ".5rem" }}
+            >
+              Pranav
             </div>
           </MDBCol>
           <MDBCol>
