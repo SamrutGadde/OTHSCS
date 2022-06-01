@@ -50,15 +50,15 @@ export default function Navbar() {
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="/OTHSCS/#/about">About Us</MDBNavbarLink>
+              <MDBNavbarLink href="/#/about">About Us</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href="/OTHSCS/#/events">Upcoming Events</MDBNavbarLink>
+              <MDBNavbarLink href="/#/events">Upcoming Events</MDBNavbarLink>
             </MDBNavbarItem>
 
             <MDBNavbarItem>
-              <MDBNavbarLink href="/OTHSCS/#/resources">Resources</MDBNavbarLink>
+              <MDBNavbarLink href="/#/resources">Resources</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>
